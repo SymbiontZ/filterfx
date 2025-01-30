@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "filterfx"
+version = "1.0.0"
+dependencies = [
+            'numpy>=2.2.2',
+            'opencv-python>=4.11.0.86',
+            'pillow>=11.1.0',
+]
+requires-python = ">=3.12"
+authors = [
+  {name = "Fabio Rojas", email = "fabiorrojas56@gmail.com"}
+]
+
+description = "Python package to enhance your images!"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICEN[CS]E.*"]
+keywords = ['python', 'filters', 'image', 'enhance', 'pillow', 'opencv', 'ocr']
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: Microsoft :: Windows",
+    "Topic :: Multimedia"
+]
+
+[project.urls]
+Homepage = "https://symbiontz.github.io"
+Repository = "https://github.com/me/spam.git"
+"Bug Tracker" = "https://github.com/me/spam/issues"
+Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
